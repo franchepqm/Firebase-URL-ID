@@ -1,4 +1,3 @@
-
 async function cargarReporteClientes() {
     try {
         const querySnapshot = await getDocs(collection(db, "formulariocredito"));
